@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+#WholeInterface {
+	height: 100%;
+	width:100%;
+	
+}
+
+#nav {
+	height: 36px;
+	width: 100%;
+	border: 1px solid rgba(207,207,207,1.00);
+	margin:-10px;
+
+}
+
+#left_nav {
+	width: 264px;
+	height: 30px;
+	float: left;
+	
+}
+
+#show_city {
+	font-size: 15px;
+	color:darkgray;
+	margin-left:16px;
+	margin-top: 10px;
+	
+	
+}
+
+
+
+img {
+	margin-top: -2px;
+	position:fixed;}
+
+
+
+.show_temp {
+	color: rgba(150,150,150,1.00);
+	
+	position:absolute;
+    left:90px;
+	
+	
+}
+
+.show_polution {
+	color:rgba(117,215,1,1.00);
+	position:absolute;
+	left:125px;
+	
+}
+
+.show_vertical {
+	position:relative;
+	left:90px;
+}
+
+.weather {
+	font-size: 14px;
+	color:rgba(163,163,163,1.00);
+	text-decoration:none;
+}
+
+.change_skin {
+	position: relative;
+	left: 100px;
+	color: rgba(154,154,154,1.00);
+	font-size: 14px;
+}
+
+#right_nav {
+	width: 580px;
+	height: 33px;
+	font-size: 14px;
+	color: rgba(72,72,72,1.00);
+    position: absolute;
+	margin-left: 800px;
+}
+	
+
+
+
+
+
+.varives {
+	color: rgba(211,24,27,1.00);
+	top: 10px;
+	position: absolute;
+	margin-right: 16px;
+}
+
+.maptop {
+	color: #555;
+	position: relative;
+	left:50px;
+	font-size: 14px;
+	margin-left: 15px;
+	top: 10px
+    
+    
+}
+
+.user_name {
+	position: relative;
+	left:50px;
+	top:10px;
+	font-size: 14px;
+	margin-left: 14px;
+	color:rgba(138,138,138,1.00);
+	
+	
+}
+
+.s_bri {
+	background-color: rgba(21,151,224,1.00);
+	height: 32px;
+    text-decoration: none;
+	position: fixed;
+	right: 0px;
+	color:aliceblue;
+    text-align: center;
+    width: 65px;
+    line-height: 30px;
+    padding-bottom: 4px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    font-size: 14px;
+
+	}
+
+
+
+.logo {
+	position:absolute;
+	margin-top:-90px;
+	margin-left: 175px;
+}
+
+#search_logo {
+	position: relative;
+	margin-left:380px;
+	margin-top: 300px;
+}
+
+.baidu_text{
+	width: 536px;
+	height: 40px;
+	color:rgba(145,145,145,1.00);
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.baidu_button {
+	cursor: pointer;
+    width: 104px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0;
+	margin-left: 543px;
+	margin-top: 30px;
+	background-color: rgb(51, 136, 255);
+	position: absolute;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	border: 1px solid #38f
+}
+
+.btn-ph {
+	position: absolute;
+	margin-left: 498px;
+	margin-top: 40px;
+}
+
+#botton {
+	width: 100%;
+	height:40px;
+	position:fixed;
+	bottom: 0px;
+	margin-top: 650px;
+	background-color: #fafafa;
+}
+
+#botton_left {
+	width: 560px;
+	height: 40px;
+	text-align: left;
+    line-height: 40px;
+}
+
+
+.tail_left {
+	color: #999;
+    text-align: left;
+    line-height: 40px;
+	text-decoration:none;
+	margin-left: 15px;
+	font-size: 13px;
+	
+}
+
+#botton_right {
+	width: 643px;
+	height: 40px;
+	float: right;
+	margin-top: -40px;
+	
+}
+.tail_left1{
+	text-align: left;
+    line-height: 40px;
+	text-decoration:none;
+	margin-left: -100px;
+	font-size: 13px;
+	color: rgba(92,92,92,1.00);
+}
+
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}

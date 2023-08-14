@@ -1,0 +1,74 @@
+* {
+    /*清除内外边距*/
+    padding: 0;
+    margin: 0;
+    /*盒子模型*/
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*背景渐变色*/
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+.login {
+    width: 400px;
+    padding: 40px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    box-shadow: 0 15px 25px rgba(231, 13, 13, 0.4);
+}
+.login h2 {
+    color: rgb(78, 43, 173);
+    margin-bottom: 40px;
+}
+.login .login_box {
+    /*相对定位*/
+    position: relative;
+    width: 100%;
+}
+.login .login_box input {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+.login .login_box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #fff;
+    pointer-events: auto;
+    transition: all 0.5s;
+}
+.login .login_box input:focus + label,
+.login .login_box input:valid + label {
+    top: -20px;
+    color: white;
+    font-size: 12px;
+}
+.login a {
+    overflow: hidden;
+    position: relative;
+    padding: 10px 20px;
+    color: black;
+    /*取消下划线*/
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.login a:hover {
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*杨忱：特别感谢 白码手记 提供的思路和部分动画说明*/

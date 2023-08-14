@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+}
+
+
+.chess{
+    display: block;
+    margin: 50px auto;
+    box-shadow: 5px 5px 5px #B9B9B9,-2px -2px #EFEFEF;
+    cursor: pointer;
+}
+div{
+    text-align: center;
+}
+.restart{
+    padding: 10px 20px;
+    background-color: #3388ff;
+    border-radius: 5px;
+    color: #f0f0f0;
+    cursor: pointer;
+}
